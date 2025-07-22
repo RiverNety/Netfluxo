@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url('./image.webp') no-repeat center center fixed;
+    background-size: cover;
+    background-position: top
+}
+
+.container {
+    padding: 30px;
+    line-height: 2.0;
+    color: white;
+    width: 300px;
+    background-color: rgb(0,0,0,0.8);
+    border: 2px
+}
